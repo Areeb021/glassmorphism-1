@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(image\ 1.png) ;
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repetition */
+    background-attachment: fixed; /* Fix the background */
+    height: 100vh;
+    width: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+.container{
+ background-color: rgba(255, 255, 255, 0.514);
+ height: 68%;
+ width: 78%;
+ border-radius: 15px;
+ backdrop-filter: blur(10px);
+ display: flex;
+
+ align-items: flex-start;
+ 
+
+}
+.sidebar{
+    background-color: rgba(0, 0, 0, 0.514);
+    height: 100%;
+    width: 28%;
+    padding: 16px;
+    backdrop-filter: blur(10px);
+    font-size: 16px;
+}
+.dots{
+    position: relative;
+    left: 60%;
+    background-color: rgba(255, 255, 255, 0.432);
+    backdrop-filter: blur(10px);
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+
+}
+.LIBRARY{
+    display: inline-block;
+}
+.lib{
+    font-size: 12px;
+}
+.content{
+    height: 44%;
+    width: 100%;
+    /* margin-top: 20px; */
+    margin-bottom: 0px;
+
+
+}
+.content ul li {
+    list-style: none;
+    padding: 6px;
+    margin-top: 22px;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+.content ul li p{
+   position: relative;
+   display: inline;
+   left: 15px;
+}
+.content-2{
+    height: 44%;
+    width: 100%;
+    
+  /* margin-bottom: 10px; */
+  
+
+}
+.content-2 ul li  {
+    list-style: none;
+    padding: 8px;
+    padding-left: 18px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.content-2 h2{
+    padding-left: 14px;
+     font-size: 20px;
+}
+.greet{
+    height: 10%;
+    width: 85%;
+    padding: 19px;
+}
+.greet p{
+    font-weight: 100;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.671);
+    padding: 5px;
+}
+input{
+    width: 98%;
+    height: 33px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.356);
+    
+    
+}
+input::placeholder{
+    color: white;
+    
+}
+.container-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+ width: 100%;
+}
+.box{
+    width: 75%;
+    height: 90%;
+    background-color: yellow;
+   
+}
