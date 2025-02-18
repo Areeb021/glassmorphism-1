@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
     background: url(image\ 1.png) ;
     background-size: cover; /* Cover the entire screen */
     background-position: center; /* Center the image */
@@ -18,22 +16,36 @@ body{
     font-family: Arial, Helvetica, sans-serif
 
 }
+.whole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    
+}
+.c1{
+    height: 100vh;
+    width: auto;
+}
 .container{
  background-color: rgba(255, 255, 255, 0.514);
  height: 68%;
- width: 78%;
+ width: 64%;
  border-radius: 15px;
  backdrop-filter: blur(10px);
- display: flex;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-direction: column;
 
- align-items: flex-start;
  
 
 }
 .sidebar{
-    background-color: rgba(0, 0, 0, 0.514);
-    height: 100%;
-    width: 28%;
+    background-color: rgba(87, 86, 86, 0.514);
+    height: 68%;
+    width: 22%;
     padding: 16px;
     backdrop-filter: blur(10px);
     font-size: 16px;
@@ -100,7 +112,7 @@ body{
 }
 .greet{
     height: 10%;
-    width: 85%;
+    width: 95%;
     padding: 19px;
 }
 .greet p{
@@ -110,7 +122,7 @@ body{
     padding: 5px;
 }
 input{
-    width: 98%;
+    width: 100%;
     height: 33px;
     border: none;
     margin: 5px;
@@ -125,16 +137,78 @@ input::placeholder{
     color: white;
     
 }
-.container-2{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 100%;
- width: 100%;
-}
+
+
 .box{
-    width: 75%;
-    height: 90%;
-    background-color: yellow;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 4px;
    
+}
+.cards
+{
+    height: 42%;
+    width: 23%;
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 2px;
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    position: relative;
+    top: 60px;
+    
+    font-size: 12px;
+    font-weight: 100;
+}
+.cards:hover{
+    
+    background-color: rgb(48, 48, 47);
+    transition: ease-in 500ms;
+}
+.smal{
+    height: 9%;
+    width: 60%;
+    position: relative;
+    z-index: 100;
+    left: 50px;
+    background-color: rgba(233, 227, 227, 0.575);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    top: 25px;
+}
+.smal-2{
+    height: 250px;;
+    width: 50px;
+    
+    
+    
+    background-color: rgba(233, 227, 227, 0.575);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    
+    margin: 5px;
+}
+.smal-2 li{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    
+}
+.cards1{
+    height: 80%;
+    width: 90%;
+    background-color: greenyellow;
+    margin: 8px;
+    
+    
+    
+}
+.cards p{
+    font-size: 11px;
+    
+    font-weight: 100;
+    font-style: oblique;
+    text-align: center;
 }
