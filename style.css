@@ -30,8 +30,8 @@ body{
 }
 .container{
  background-color: rgba(255, 255, 255, 0.514);
- height: 68%;
- width: 64%;
+ height: 70%;
+ width: 67%;
  border-radius: 15px;
  backdrop-filter: blur(10px);
 display: flex;
@@ -44,8 +44,8 @@ flex-direction: column;
 }
 .sidebar{
     background-color: rgba(87, 86, 86, 0.514);
-    height: 68%;
-    width: 22%;
+    height: 70%;
+    width: 25%;
     padding: 16px;
     backdrop-filter: blur(10px);
     font-size: 16px;
@@ -150,7 +150,7 @@ input::placeholder{
 }
 .cards
 {
-    height: 42%;
+    height: 43%;
     width: 23%;
     background-color: rgba(0, 0, 0, 0.486);
     padding: 2px;
@@ -211,4 +211,44 @@ input::placeholder{
     font-weight: 100;
     font-style: oblique;
     text-align: center;
+}
+.c1{
+    background: url(cover\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c2{
+    background: url(cover\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c3{
+    background: url(cover\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c4{
+    background: url(cover\ 4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c5{
+    background: url(cover\ 5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c6{
+    background: url(cover\ 6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c7{
+    background: url(cover\ 7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c8{
+    background: url(cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
